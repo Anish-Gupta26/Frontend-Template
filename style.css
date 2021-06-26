@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(65, 59, 59);
+    color: white;
+    font-family: 'Staatliches', cursive;
+}
+li{
+    margin-top: 40px;
+}
+.bold{
+    font-weight: bolder;
+}
+
+.logo img{
+    width: 30px;
+    padding: 2px 12px;
+}
+.container{
+    margin: auto;
+    padding: 30px;
+    width: 50vw;
+    font-family: 'Roboto', sans-serif;
+}
+.copy-to-clipboard-button{
+    cursor: pointer;
+    color: white;
+}
